@@ -27,5 +27,4 @@ class Bicycle extends Vehicle implements LightableInterface
 
 $bicycle = new Bicycle('blue', 1);
 echo $bicycle->forward();
-var_dump($bicycle);
 
